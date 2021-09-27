@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px; }
+
+nav {
+  height: 50px;
+  background-color: #fec8d8;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+nav a {
+  color: white;
+  text-decoration: none; }
+
+.home .homeHeader {
+  color: #878787;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 100px; }
+
+.home .homeDescription {
+  width: 500px;
+  height: 300px;
+  color: #b4b4b4;
+  letter-spacing: 1px;
+  margin-left: 500px;
+  padding-top: 40px; }
+
+.home .homeButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-right: 50px; }
+
+.home #submit {
+  padding: 10px;
+  margin-top: 20px; }
+
+.home .homeSections {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.home .homeLayout {
+  width: 300px;
+  height: 400px;
+  background-color: #badfda; }
+
+.home .homeImage {
+  width: 200px;
+  height: 200px;
+  margin-left: 45px;
+  margin-top: 30px;
+  object-fit: cover;
+  border-radius: 15px; }
+
+.home .homeLayoutHeader {
+  color: #878787;
+  text-align: center;
+  padding-top: 15px; }
+
+.home .homeLayoutDescription {
+  color: #b4b4b4;
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 35px; }
+
+.about .aboutHeader {
+  width: 100%;
+  height: 250px;
+  background-color: #f6f3e7; }
+
+.about .aboutTitle {
+  color: #878787;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 50px; }
+
+.about .aboutDescription {
+  color: #b4b4b4;
+  height: 400px;
+  padding-left: 300px;
+  padding-right: 200px;
+  padding-top: 30px; }
+
+.about .aboutUs {
+  color: #878787;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 30px; }
+
+.about .aboutHeadshot {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 200px;
+  margin-top: 50px;
+  margin-left: 200px; }
+
+.about .headshotDiv {
+  background-color: #ff9aa2;
+  width: 500px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 50px; }
+
+.about .headshotName {
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px; }
+
+.about .headshotDescription {
+  color: #878787;
+  padding: 20px; }
+
+.about .aboutLayoutOne {
+  display: flex;
+  align-items: center; }
+
+.blogHeader {
+  color: #878787;
+  font-size: 40px;
+  padding: 20px; }
+
+.blogSectionOne {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.blogBoxes {
+  background-color: #ffdfd3;
+  width: 400px;
+  height: 450px; }
+
+.blogBoxImages {
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  margin-top: 30px;
+  object-fit: cover; }
+
+.blogBoxTitle {
+  color: #878787;
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 10px; }
+
+.blogView {
+  margin-left: 160px; }
+
+.blogTime {
+  color: #b4b4b4;
+  padding-top: 25px;
+  padding-left: 10px; }
+
+.blogName {
+  color: #97c1a9; }
+
+.blogSeeMore {
+  width: 100px;
+  height: 40px;
+  margin-top: 50px;
+  margin-left: 665px; }
+
+.contact .contactHeader {
+  color: #878787;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 30px; }
+
+.contact .contactForm {
+  background-color: #f0f0f0;
+  box-shadow: 10px 5px 5px #black;
+  width: 600px;
+  height: 730px;
+  margin-left: 430px; }
+
+.contact .contactNames {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.contact .contactInput {
+  padding-left: 40px; }
+
+.contact .contactInputEmail {
+  padding-left: 65px; }
+
+.contact .formFirstName {
+  color: #525050;
+  padding-left: 65px;
+  padding-top: 40px; }
+
+.contact .formLastName {
+  color: #525050;
+  padding-right: 165px;
+  padding-top: 40px; }
+
+.contact .contactEmail {
+  color: #525050;
+  padding-top: 40px;
+  padding-left: 65px; }
+
+.contact .formInput {
+  width: 200px;
+  height: 30px;
+  padding-left: 5px; }
+
+.contact .formInputEmail {
+  width: 465px;
+  height: 30px;
+  padding-left: 5px; }
+
+.contact .inputNames {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-right: 50px; }
+
+.contact .contactMessage {
+  color: #525050;
+  padding-top: 40px;
+  padding-left: 65px; }
+
+.contact .contactInputMessage {
+  padding-left: 65px; }
+
+.contact .contactInputAdditional {
+  padding-left: 65px; }
+
+.contact .formInputMessage {
+  width: 465px;
+  height: 150px;
+  padding-left: 5px; }
+
+.contact .formInputAdditional {
+  width: 465px;
+  height: 100px;
+  padding-left: 5px; }
+
+.contact .contactButton {
+  margin-left: 250px;
+  margin-top: 40px; }
+
+.contact .submitForm {
+  padding: 10px; }
+
+.products .productsHeader {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #878787; }
+
+.products .productsLayoutSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.products .productsLayout {
+  background-color: #d291bc;
+  width: 300px;
+  height: 500px; }
+
+.products .productsImage {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin-left: 25px;
+  margin-top: 25px; }
+
+.products .productsTitle {
+  color: white;
+  font-weight: lighter;
+  padding: 25px; }
+
+.products .productsPrice {
+  color: #424242;
+  padding-left: 110px; }
+
+.products .productsPriceCards {
+  color: #424242;
+  padding-left: 50px; }
+
+.products .productsButton {
+  padding-left: 75px; }
+
+.products .productsSubmit {
+  padding: 10px;
+  margin-top: 20px;
+  width: 150px; }
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #fec8d8;
+  margin-top: 40px; }
+  footer .footerHeader {
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px; }
+  footer .footerTitle {
+    color: white;
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -15px; }

@@ -1,0 +1,55 @@
+.blogHeader {
+  color: #878787;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.blogSectionOne {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.blogBoxes {
+  background-color: #ffdfd3;
+  width: 400px;
+  height: 450px;
+}
+
+.blogBoxImages {
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  margin-top: 30px;
+  object-fit: cover;
+}
+
+.blogBoxTitle {
+  color: #878787;
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.blogView {
+  margin-left: 160px;
+}
+
+.blogTime {
+  color: #b4b4b4;
+  padding-top: 25px;
+  padding-left: 10px;
+}
+
+.blogName {
+  color: #97c1a9;
+}
+
+.blogSeeMore {
+  width: 100px;
+  height: 40px;
+  margin-top: 50px;
+  margin-left: 665px;
+}

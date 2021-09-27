@@ -1,0 +1,53 @@
+.products {
+  .productsHeader {
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #878787;
+  }
+
+  .productsLayoutSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .productsLayout {
+    background-color: #d291bc;
+    width: 300px;
+    height: 500px;
+  }
+
+  .productsImage {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+
+  .productsTitle {
+    color: white;
+    font-weight: lighter;
+    padding: 25px;
+  }
+
+  .productsPrice {
+    color: #424242;
+    padding-left: 110px;
+  }
+  .productsPriceCards {
+    color: #424242;
+    padding-left: 50px;
+  }
+
+  .productsButton {
+    padding-left: 75px;
+  }
+
+  .productsSubmit {
+    padding: 10px;
+    margin-top: 20px;
+    width: 150px;
+  }
+}

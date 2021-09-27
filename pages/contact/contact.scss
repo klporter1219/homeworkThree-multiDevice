@@ -1,0 +1,104 @@
+.contact {
+  .contactHeader {
+    color: #878787;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+  }
+
+  .contactForm {
+    background-color: #f0f0f0;
+    box-shadow: 10px 5px 5px #black;
+    width: 600px;
+    height: 730px;
+    margin-left: 430px;
+  }
+
+  .contactNames {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contactInput {
+    padding-left: 40px;
+  }
+
+  .contactInputEmail {
+    padding-left: 65px;
+  }
+
+  .formFirstName {
+    color: rgb(82, 80, 80);
+    padding-left: 65px;
+    padding-top: 40px;
+  }
+
+  .formLastName {
+    color: rgb(82, 80, 80);
+    padding-right: 165px;
+    padding-top: 40px;
+  }
+
+  .contactEmail {
+    color: rgb(82, 80, 80);
+    padding-top: 40px;
+    padding-left: 65px;
+  }
+
+  .formInput {
+    width: 200px;
+    height: 30px;
+    padding-left: 5px;
+  }
+
+  .formInputEmail {
+    width: 465px;
+    height: 30px;
+    padding-left: 5px;
+  }
+
+  .inputNames {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 50px;
+  }
+
+  .contactMessage {
+    color: rgb(82, 80, 80);
+    padding-top: 40px;
+    padding-left: 65px;
+  }
+
+  .contactInputMessage {
+    padding-left: 65px;
+  }
+
+  .contactInputAdditional {
+    padding-left: 65px;
+  }
+
+  .formInputMessage {
+    width: 465px;
+    height: 150px;
+    padding-left: 5px;
+  }
+
+  .formInputAdditional {
+    width: 465px;
+    height: 100px;
+    padding-left: 5px;
+  }
+
+  .contactButton {
+    margin-left: 250px;
+    margin-top: 40px;
+  }
+
+  .submitForm {
+    padding: 10px;
+  }
+}
